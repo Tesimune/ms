@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <link href="/styles.css" rel="stylesheet">
+</head>
+<body class="grid md:items-center min-h-screen w-full md:bg-gray-200 md:bg-[url('/images/bg.svg')] bg-no-repeat bg-cover relative">
+    <div class="container mx-auto">
+        <div class="flex justify-center">
+            <div class="flex flex-col gap-9 md:gap-5">
+                <div class="flex flex-col gap-3 bg-white w-screen md:w-[450px] md:shadow-lg py-5 md:py-11 px-7 md:px-9">
+                    <div>
+                        <img src="./images/microsoft_logo.svg" alt="logo"/>
+                    </div>
+                    <span class="font-semibold text-2xl">Sign in</span>
+                    <form>
+                        <input type="text" class="w-full border-b outline-none py-2" placeholder="Email, phone, or Skype" />
+                    </form>
+                    <div class="flex flex-col gap-5 text-sm">
+                        <div class="flex gap-3">
+                            <span>No account?</span>
+                            <a href="" class="text-blue-500">Create one!</a>
+                        </div>
+                        <a href="" class="text-blue-500">Can’t access your account?</a>
+                        <div class="flex justify-end items-center gap-2">
+                            <button class="bg-gray-200 text-black py-2 px-11 flex justify-center items-center">Back</button>
+                            <button class="bg-blue-600 text-white py-2 px-11 flex justify-center items-center">Next</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center items-start px-5 md:px-0">
+                    <div class="flex justify-start gap-3 bg-white py-1.5 pl-9 w-full md:w-[450px] md:shadow-lg border border-slate-700 md:border-none">
+                        <div class="flex items-center text-sm">
+                            <img src="./images/signin-options.svg" alt="sign" />
+                        </div>
+                        <span class="flex items-center text-sm">Sign-in options</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-5 text-xs absolute bottom-3 left-5 md:right-3">
+        <a href="">Term of use</a><a href="">Privacy & cookies</a><a href="">...</a>
+    </div>
+</body>
+</html>
