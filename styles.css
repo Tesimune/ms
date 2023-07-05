@@ -635,10 +635,6 @@ video {
   left: 1.25rem;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .right-auto {
   right: auto;
 }
@@ -2477,16 +2473,12 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:right-3 {
-    right: 0.75rem;
-  }
-
-  .md\:left-0 {
-    left: 0px;
-  }
-
   .md\:left-auto {
     left: auto;
+  }
+
+  .md\:right-3 {
+    right: 0.75rem;
   }
 
   .md\:w-\[450px\] {
